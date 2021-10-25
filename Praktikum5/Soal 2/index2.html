@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="author" content="Adhitya PPT 2172024">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" 
+    rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style type="text/css">
+    body {
+        background-image: url(background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+    }
+    .judul {
+        color: white;
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+    table {
+        font-family: 'Nunito', sans-serif;
+        color: black;
+        font-size: 15px;
+        text-align: left;
+        padding: 30px;
+        margin-top: 40px;
+    }
+    .bgg {
+        background-color: rgba(178, 190, 195,0.8);
+        width: 40%;
+        margin: auto;
+    }
+    .input1 {
+        width: 430px;
+        height: 13px;
+    }
+    .input2 {
+        width: 437px;
+    }
+    .submit {
+        width: 430px;
+        height: 40px;
+        font-size: 11px;
+        border-left-color: grey;
+        border-top-color: grey;
+        border-bottom-color: black;
+        border-right-color: black;
+        background-color: #54C571;
+        margin-top: 5px;
+    }
+</style>
+<body>
+    <div class="judul">Fill in this form</div>
+    <div class="bgg">
+    <table>
+        <tr><td>Full Name :</td></tr>
+        <tr><td><input type="text" class="input1"></td></tr>
+        <tr><td>Email :</td></tr>
+        <tr><td><input type="email" class="input1"></td></tr>
+        <tr><td>Age :</td></tr>
+        <tr><td><input type="number" class="input1"></td></tr>
+        <tr><td>Gender :</td></tr>
+        <tr><td><select class="input2">
+            <option selected disabled>Select your gender</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select></td></tr>
+        <tr><td>Date of birth :</td></tr>
+        <tr><td><input type="date" class="input1"></td></tr>
+        <tr><td>Choose your laptop :</td></tr>
+        <tr><td><select class="input2">
+            <option>Laptop</option>
+        </select></td></tr>
+        <tr><td>Enter your card number :</td></tr>
+        <tr><td><input type="number" placeholder="XXXX XXXX XXXX XXXX" class="input1"></td></tr>
+        <tr><td>Payment :</td></tr>
+        <tr><td><input type="radio" name="rating">1x<br><input type="radio" name="rating">3x<br><input type="radio" name="rating">6x<br><input type="radio" name="rating">12x</td></tr>
+        <tr><td>Which brand do you like :</td></tr>
+        <tr><td>
+            <input type="checkbox">Asus<br>
+            <input type="checkbox">Lenovo<br>
+            <input type="checkbox">Acer<br>
+            <input type="checkbox">HP<br>
+        </td></tr>
+        <tr><td><input type="button" class="submit" value="Submit"></td></tr>
+    </table>
+</div>
+</body>
+</html>
